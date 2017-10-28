@@ -4,20 +4,19 @@ Wrapper componenet for ReactJS that allows you to render multiple child componen
 
 ## Installation
 
-    npm install react-shadow-wrapper -S
-
+    $ npm install react-shadow-wrapper -S
 
 ## Usage
 
 Import the component:
 
-```
+```typescript
     import ShadowWrapper from 'react-shadow-wrapper';
 ```
 
 When you render your component, wrap it in with <ShadowWrapper></ShadowWrapper>:
 
-```
+```tsx
 class YourComponent extends React.Component {
     render() {
         return (

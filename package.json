@@ -1,6 +1,6 @@
 {
   "name": "react-shadow-wrapper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Wrapper component that allows you to render multiple child componenets without wrapping in a div",
   "main": "index.js",
   "scripts": {
