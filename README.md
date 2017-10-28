@@ -2,12 +2,12 @@
 
 Wrapper componenet for ReactJS that allows you to render multiple child components without adding unnecessary DIVs to the DOM.
 
-##Installation
+## Installation
 
     npm install react-shadow-wrapper
 
 
-##Usage
+## Usage
 
 Import the component:
 
