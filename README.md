@@ -4,7 +4,7 @@ Wrapper componenet for ReactJS that allows you to render multiple child componen
 
 ## Installation
 
-    npm install react-shadow-wrapper
+    npm install react-shadow-wrapper -S
 
 
 ## Usage
