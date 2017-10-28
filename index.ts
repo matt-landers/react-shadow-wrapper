@@ -1,6 +1,6 @@
-import { ReactComponent } from 'react';
+import * as React from 'react';
 
-class ShadowWrapper extends ReactComponent {
+class ShadowWrapper extends React.Component {
     props: any;
 
     render() {

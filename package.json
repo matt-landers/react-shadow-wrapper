@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/matt-landers/react-shadow-wrapper#readme",
   "dependencies": {
+    "@types/react": "^16.0.18",
     "react": "^16.0.0"
   }
 }

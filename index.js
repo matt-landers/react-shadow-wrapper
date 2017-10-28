@@ -10,7 +10,7 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 exports.__esModule = true;
-var react_1 = require("react");
+var React = require("react");
 var ShadowWrapper = (function (_super) {
     __extends(ShadowWrapper, _super);
     function ShadowWrapper() {
@@ -20,5 +20,5 @@ var ShadowWrapper = (function (_super) {
         return (this.props.children);
     };
     return ShadowWrapper;
-}(react_1.ReactComponent));
+}(React.Component));
 exports["default"] = ShadowWrapper;
