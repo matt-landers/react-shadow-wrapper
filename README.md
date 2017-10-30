@@ -11,7 +11,7 @@ $ npm install react-shadow-wrapper
 Import the component:
 
 ```typescript
-    import ShadowWrapper from 'react-shadow-wrapper';
+import ShadowWrapper from 'react-shadow-wrapper';
 ```
 
 When you render your component, wrap it in with <ShadowWrapper></ShadowWrapper>:
@@ -30,3 +30,25 @@ class YourComponent extends React.Component {
 }
 ```
 
+Typically, you would need to wrap the components in a DIV, and the resulting HTML outputed would look like:
+
+```html
+<div id="app">
+    <div>
+        ...your components nested under the div
+    </div>
+</div>
+```
+
+When using ShadowWrapper, your output looks like:
+
+```html
+<div id="app">
+    ...your components are no longer nested in a useless div!
+</div>
+```
+
+## Example
+
+If you're still unsure how this masterpiece works, checkout the working example here:
+https://www.npmjs.com/package/react-shadow-wrapper-example
